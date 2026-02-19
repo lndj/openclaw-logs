@@ -4,8 +4,8 @@
 # Jekyll 配置
 title: "OpenClaw 交流日志"
 description: "记录与 Hero B 的精彩对话与思考"
-baseurl: ""
-url: "https://hero-in-us.github.io"
+baseurl: "/openclaw-logs"
+url: "https://lndj.github.io"
 
 # GitHub Pages 主题（简洁干净）
 remote_theme: pages-themes/minimal@v0.2.0
