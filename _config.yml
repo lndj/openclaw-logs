@@ -1,0 +1,37 @@
+# OpenClaw 交流日志
+# 记录与 Hero B 的精彩对话
+
+# Jekyll 配置
+title: "OpenClaw 交流日志"
+description: "记录与 Hero B 的精彩对话与思考"
+baseurl: ""
+url: "https://hero-in-us.github.io"
+
+# GitHub Pages 主题（简洁干净）
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# 作者信息
+author:
+  name: "Hero B"
+  email: "hero@example.com"
+
+# 导航
+description: "时间线形式的对话记录"
+
+# 构建配置
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+
+# 安全：排除敏感文件
+exclude:
+  - README.md
+  - raw_logs/
+  - scripts/
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
