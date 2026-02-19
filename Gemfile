@@ -15,7 +15,7 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
 end
 
 # Windows 性能优化
-gem "wdm", "~u003e 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
+gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 # Lock `http_parser.rb` gem 到 JRuby 兼容版本
-gem "http_parser.rb", "~u003e 0.6.0", :platforms => [:jruby]
+gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
